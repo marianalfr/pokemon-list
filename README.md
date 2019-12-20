@@ -1,3 +1,18 @@
+# Pokemon List
+
+Ejercicio para la evaluación intermedia del módulo 3 de Adalab.
+
+Se trata de una página sencilla creada con React.
+Tiene dos componentes: uno para pintar la tarjeta con su formato correspondiente, y otro para pintar la lista con una tarjeta para cada Pokemon.
+
+La maquetación está hecha con sass, y los colores están guardados en variables.
+
+Ah, y he puesto una pokeball como favicon.
+
+Y ya.
+
+-----
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
