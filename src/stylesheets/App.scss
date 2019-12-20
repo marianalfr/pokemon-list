@@ -1,0 +1,66 @@
+@import './core/variables.scss';
+
+.App {
+  width: 100%;
+  min-height: 100vh;
+  margin: 0px;
+  padding: 50px 20px;
+  text-align: center;
+  background-color: $color-background;
+
+  &__title{
+    margin-top: 0px;
+    color: $color-main;
+  }
+}
+
+.pokelist{
+  width: 80%;
+  margin: 50px auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.card{
+  width: 200px;
+  height: 300px;
+  border-radius: 20px;
+  margin: 10px;
+  padding: 10px 0;
+  background-color: $color-white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: space-between;
+  box-shadow: 2px 2px 6px 0 $color-shadow;
+
+    &__img{
+      width: 100px;
+      margin: auto;
+    }
+
+    &__title{
+      width: 100%;
+      padding: 10px 0;
+      background-color: $color-main;
+      color: $color-white;
+      text-transform: capitalize;
+    }
+
+    &__types{
+      height: 40px;
+
+      li{
+        display: inline-block;
+        line-height: 30px;
+        padding: 0 15px;
+        border-radius: 15px;
+        margin: 0 5px;
+        background-color: $color-background;
+        color: $color-main;      
+      }
+    }
+}
+
