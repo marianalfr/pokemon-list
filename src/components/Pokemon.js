@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 const Pokemon = (props) => {
     return(
@@ -8,6 +9,12 @@ const Pokemon = (props) => {
             <ul className="card__types">{props.types.map((type, index) => <li key={index}>{type}</li>)}</ul>
         </div>
     )
+}
+
+Pokemon.propTypes = {
+    url: PropTypes.string,
+    name: PropTypes.string,
+    types: PropTypes.array
 }
 
 export default Pokemon;
